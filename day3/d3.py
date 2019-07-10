@@ -5,7 +5,7 @@
 
 string = input('문자를 입력하세요: ')
 # 아래에 코드를 작성해 주세요.
-print('첫 글자 : {0}, 마지막 글자 : {1}'.format(string[0],string[-1]))
+print(f'첫 글자 : {string[0]}, 마지막 글자 : {string[-1]}')
 # -1 인덱스 접근은 가장 마지막이다.
 # apple
 #     -1
